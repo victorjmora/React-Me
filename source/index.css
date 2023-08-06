@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary: #2a9d8f;
+  --secondary: #264653;
+}
+body {
+  margin: 0;
+  padding: 20px;  
+  font-family: "Roboto";
+  background: var(--secondary);
+}
+* {
+  color: #e9c46a;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: tan;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav h1 {
+  font-size: 25px;
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active {
+  background: var(--primary);
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+input {
+  color: black;
+  font-size: 17px;
+}
+form {
+ margin-top: 30px;
+  }
+
+.person{
+  height: 50%;
+  width: 50%;
+}
+
+footer{
+  display: flex;
+justify-content: center;
+width: 50%;
+position: fixed;
+  bottom: 0;
+}
+.github {
+  
+  font-size: 80px;
+}

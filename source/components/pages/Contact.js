@@ -41,7 +41,7 @@ setErrorMessage("Thank you for the message")
 
     return ( 
 <section className="contact">
-    <h2>Contact me here</h2>
+    <h2><b>You can contact me through here</b></h2>
 
     <form className="forms">
         <label>

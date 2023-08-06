@@ -1,14 +1,11 @@
-import {FaGithub, FaStackOverflow} from "react-icons/fa"
+import {FaGithub} from "react-icons/fa"
 
 const Footer = () => {
     return (
         <section className="footer">
             <footer>
-                <a href="https://github.com/Element2804">
+                <a href="https://github.com/Victorjmora">
                 <FaGithub className="github"/>
-                </a>
-                <a href="https://stackoverflow.com/users/18804130/element2804">
-                <FaStackOverflow className="stack"/>
                 </a>
             </footer>
 
