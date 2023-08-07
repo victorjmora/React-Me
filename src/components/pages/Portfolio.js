@@ -1,6 +1,6 @@
 import React from "react";
-import QuizShow from "React-Me/source/images/ShortestQuizShow.png"
-import WorkTeam from "React-Me/source/images/WorkTeam.png"
+import QuizShow from "../../images/ShortestQuizShow.png";
+import WorkTeam from "../../images/WorkTeam.png"
 const Portfolio = () => {
     return (
         <section>

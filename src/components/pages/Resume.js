@@ -12,9 +12,9 @@ const Resume = () => {
             <li>ExpressJS</li>
             <li>React</li>
         </ul>
-        <a href={require("")} download>
+        {/* <a href={require("")} download>
         <button>Download Resume</button>
-        </a>
+        </a> */}
             </section>
         
 
